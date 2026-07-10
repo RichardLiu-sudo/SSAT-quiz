@@ -136,9 +136,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hira
 </div>
 <div class="mode-bar">
 <div style="display:flex;gap:8px">
-<button id="btnRandom" class="btn active">随机</button>
-<button id="btnSequential" class="btn">顺序</button>
-<button id="btnWrong" class="btn">错题本 (<span id="statBook">0</span>)</button>
+<button id="btnRandom" class="btn active" onclick="setMode('random')">随机</button>
+<button id="btnSequential" class="btn" onclick="setMode('sequential')">顺序</button>
+<button id="btnWrong" class="btn" onclick="setMode('wrong')">错题本 (<span id="statBook">0</span>)</button>
 </div>
 <span class="info" id="poolInfo">题库: 431 题</span>
 </div>
